@@ -40,6 +40,6 @@ console.log(adam.ismale());
 adam.setGender("Female");
 adam.eat(apple1);
 adam.say("Tôi đang ăn táo")
-document.write( "Quả táo còn: "+apple1.getWeight() + " đơn vị" + "<br>");
-document.write( "Cân nặng của Adm là: " + adam.getWeight() + " đơn vị" + "<br>")
+console.log(( "Quả táo còn: "+apple1.getWeight() + " đơn vị" + "<br>"));
+console.log(( "Cân nặng của Adm là: " + adam.getWeight() + " đơn vị" + "<br>"))
 
